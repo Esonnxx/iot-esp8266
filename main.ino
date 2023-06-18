@@ -2,9 +2,9 @@
 #include <ESP8266HTTPClient.h>
 #include <WiFiClient.h>
 
-const char* ssid = "iPhone";  // Wi-Fi network name
-const char* password = "a0936213315";  // Wi-Fi network password
-const char* serverName = "http://13.231.139.13:3000/data";  // URL of the server to send data to
+const char* ssid = "";  // Wi-Fi network name
+const char* password = "";  // Wi-Fi network password
+const char* serverName = "";  // URL of the server to send data to
 const int soilSensorPin = A0;  // Analog pin connected to the soil moisture sensor
 const int relayPin = D1;  // Digital pin connected to the relay
 unsigned long lastTime = 0;
